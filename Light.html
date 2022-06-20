@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="Light.css">
+    <title>BackgroundLight Toolkit</title>
+</head>
+
+<body>
+    <section id="screen">
+        <div class="burst" id="burst">Burst Game</div>
+        <div>
+            <button class="btn" id="start">Start</button>
+            <button class="btn" id="end">Reload</button>
+        </div>
+        <div id="pool">
+            <div id="span1">
+            </div>
+            <div id="span2">
+            </div>
+        </div>
+        <div id="rules">
+            <ul>The Rules are pretty Simple...
+                <li>Block will be thrown onto the screen...</li>
+                <li>You have to break the block before crossing the screen...</li>
+                <li>You can break block by clicking only once on the block...</li>
+                <li>You will have 5 lives...</li>
+                <li>When broken the block will shrink and disappear...</li>
+                <li>Every Block breaking awards you 2 points...</li>
+            </ul>
+            <div class="btn" id="begin">Begin</div>
+        </div>
+        <div id="scoreboard">
+            <div id="Score">Score : <span id="score-span"></span></div>
+            <div id="Lives">Lives : <span id="lives-span"></span></div>
+        </div>
+        <div id="final-score">Final Score
+            <div>Your Points Are : <span id="final-points"></span></div>
+        </div>
+    </section>
+    <script src="Light.js">
+    </script>
+</body>
+
+</html>
